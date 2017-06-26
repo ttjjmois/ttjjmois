@@ -1,3 +1,11 @@
+::selection {
+	background: #C0FFEE;
+}
+
+::-moz-selection {
+	background: #C0FFEE;
+}
+
 #logo {
 	padding: 70px 0 50px;
 }
@@ -11,14 +19,14 @@ html {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 16px;
-	line-height: 1.8em
+	line-height: 1.8em;
 }
 
 body {
 	color: #777;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .aaa {
