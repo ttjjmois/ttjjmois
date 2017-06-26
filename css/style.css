@@ -1,0 +1,84 @@
+#logo {
+	padding: 70px 0 50px;
+}
+
+#sidebar .instagram-pics li {
+	width: 31%;
+}
+
+html {
+	font-family: "Karma", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.8em
+}
+
+body {
+	color: #777;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.aaa {
+	font-family: "Karma", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.8em;
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.bbb, .post-entry blockquote p {
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.6em;
+	color: #777;
+}
+
+.post-nav {
+	display: table;
+	width: 100%;
+	padding: 100px 0;
+	border-top: 1px solid #e5e5e5;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	vertical-align: top;
+}
+
+.post-nav a {
+	display: table-cell;
+	vertical-align: top;
+	padding-right: 10px;
+	color: #777;
+}
+
+.post-nav a+a, .post-nav a.next {
+	text-align: right;
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	width: auto;
+	height: auto;
+	border: 0;
+}
+
+.post-nav a img {
+	max-height: 120px;
+	margin: 0 20px 0 0;
+	float: left;
+}
+
+.post-nav a+a img, .post-nav a.next img {
+	margin: 0 0 0 20px;
+	float: right;
+}
