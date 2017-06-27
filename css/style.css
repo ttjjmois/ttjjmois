@@ -94,3 +94,12 @@ img {
 #sidebar .instagram-pics li {
 	margin: 2px 1px;
 }
+
+.widget img {
+	max-width: 48%;
+	padding: 2px;
+}
+
+#instagram {
+	margin-bottom: 50px;
+}
