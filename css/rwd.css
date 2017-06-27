@@ -115,7 +115,9 @@
 	#top-social { right:55px; }
 	
 	/* Responsive Menu */
+	/*
 	#nav-wrapper { display:none; }
+	*/
 	.slicknav_menu {	display:block; }
 	
 	/* List layout */
