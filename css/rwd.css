@@ -1,12 +1,14 @@
 @media only screen and (min-width: 942px) and (max-width: 1170px) {
-	
-	.container { width:940px; }
-	#main { width:650px; }
-	
+	.container {
+		width:940px;
+	}
+	#main {
+		width:650px;
+	}
 	#logo img {
 		max-width:100%;
 	}
-	
+
 	/* Featured area */
 	.feat-item {
 		height:574px;
@@ -18,16 +20,15 @@
 		width:310px;
 	}
 	
-		#main.fullwidth .sp-grid > li {
-			width:450px;
-		}
+	#main.fullwidth .sp-grid > li {
+		width:450px;
+	}
 	
 	/* Related items */
 	.item-related {
 		width:204px;
 		margin-right:19px;
 	}
-	
 }
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
