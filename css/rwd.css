@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1171px) {
-	.menu-dogs {
+	#nav-wrapper .menu .menu-dogs {
 		display: none;
 	}
 }
@@ -7,10 +7,10 @@
 	.container {
 		width: 940px;
 	}
-	.menu-cats {
-		display: block;
+	#nav-wrapper .menu .menu-cats {
+		display: inline-block;
 	}
-	.menu-dogs {
+	#nav-wrapper .menu .menu-dogs {
 		display: none;
 	}
 	#main {
@@ -51,16 +51,16 @@
 		overflow: hidden;
 	}
 }
-	@media only screen and (min-width: 942px) and (max-width: 1170px) {
-		.container {
-			width: 940px;
-		}
-		#main {
-			width: 650px;
-		}
-		#logo img {
-			max-width: 100%;
-		}
+@media only screen and (min-width: 942px) and (max-width: 1170px) {
+	.container {
+		width: 940px;
+	}
+	#main {
+		width: 650px;
+	}
+	#logo img {
+		max-width: 100%;
+	}
 		/* Featured area */
 		.feat-item {
 			height: 574px;
@@ -107,11 +107,11 @@
 		/*
 		#nav-wrapper { display:none; }
 		*/
-		.menu-cats {
+		#nav-wrapper .menu .menu-cats {
 			display: none;
 		}
-		.menu-dogs {
-			display: block;
+		#nav-wrapper .menu .menu-dogs {
+			display: inline-block;
 		}
 		.slicknav_menu {
 			display: block;
@@ -190,11 +190,11 @@
 		/*
 		#nav-wrapper { display:none; }
 		*/
-		.menu-cats {
+		#nav-wrapper .menu .menu-cats {
 			display: none;
 		}
-		.menu-dogs {
-			display: block;
+		#nav-wrapper .menu .menu-dogs {
+			display: inline-block;
 		}
 		.slicknav_menu {
 			display: block;
@@ -319,11 +319,11 @@
 		/*
 		#nav-wrapper { display:none; }
 		*/
-		.menu-cats {
+		#nav-wrapper .menu .menu-cats {
 			display: none;
 		}
-		.menu-dogs {
-			display: block;
+		#nav-wrapper .menu .menu-dogs {
+			display: inline-block;
 		}
 		.slicknav_menu {
 			display: block;
@@ -402,11 +402,11 @@
 		/*
 		#nav-wrapper { display:none; }
 		*/
-		.menu-cats {
+		#nav-wrapper .menu .menu-cats {
 			display: none;
 		}
-		.menu-dogs {
-			display: block;
+		#nav-wrapper .menu .menu-dogs {
+			display: inline-block;
 		}
 		.slicknav_menu {
 			display: block;
@@ -464,11 +464,11 @@
 			.container {
 				width: 480px;
 			}
-			.menu-cats {
+			#nav-wrapper .menu .menu-cats {
 				display: none;
 			}
-			.menu-dogs {
-				display: block;
+			#nav-wrapper .menu .menu-dogs {
+				display: inline-block;
 			}
 			/* Featured area */
 			.feat-item {
