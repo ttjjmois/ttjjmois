@@ -53,11 +53,13 @@ body {
 	font-family: "Karma", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 10px;
+	font-size: 12px;
+	width: 80%;
+	margin: 30px auto 0;
 }
 
 .ccc span {
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 .post-nav {
